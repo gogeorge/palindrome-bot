@@ -1,6 +1,8 @@
 # palindrome-bot
 
-This is a reddit bot which will detect any palindromes in the comments of a post. Then it will reply "You used the word <something> which is a palindrome".
+palindrome = a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or racecar.
+<br><br>
+This is a reddit bot which will detect any palindromes in the comments of a post. Then it will reply "You used the word {something} which is a palindrome".
 <br><br>
 - The code is very sketchy because this my first time writing in python
 <br><br>
