@@ -8,7 +8,6 @@ subreddit = reddit.subreddit("sandboxtest")
 file = open('palindromes-results.txt', 'w+')
 
 for comment in subreddit.stream.comments():
-	# use xmlcharref
 	comments = str(comment.body.encode('ascii', 'ignore'))
 	print 'COMMENT: ' + comments
 	str_len = len(comments)
